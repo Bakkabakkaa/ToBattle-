@@ -66,6 +66,7 @@ namespace HeroSelection
             }
 
             HeroSelected?.Invoke(_currentHeroController);
+            _prefsManager.SaveChosenHero(_currentHeroController.HeroSettings.Name);
         }
 
         public void OnBackButtonClicked()

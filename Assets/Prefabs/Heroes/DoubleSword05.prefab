@@ -9007,6 +9007,9 @@ GameObject:
   - component: {fileID: 1290745405563264500}
   - component: {fileID: 1200914678183810084}
   - component: {fileID: 1294997432910168760}
+  - component: {fileID: 2981951101009371170}
+  - component: {fileID: -4523358322340944821}
+  - component: {fileID: 5465551007684734328}
   m_Layer: 0
   m_Name: DoubleSword05
   m_TagString: DoubleSword05
@@ -9083,7 +9086,7 @@ Transform:
   - {fileID: 1294558285379232834}
   - {fileID: 1290820227438798506}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1200914678183810084
 Animator:
@@ -9130,6 +9133,52 @@ MonoBehaviour:
     <WasBought>k__BackingField: 0
     <Price>k__BackingField: 4000
     <IsSelected>k__BackingField: 0
+--- !u!195 &2981951101009371170
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296513226392493748}
+  m_Enabled: 0
+  m_AgentTypeID: 0
+  m_Radius: 0.3
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &-4523358322340944821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296513226392493748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98cf57098e8e40fba7d750969106952b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5465551007684734328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296513226392493748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c544d1a4de047f096a29ddc81ca1369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1296515410077293074
 GameObject:
   m_ObjectHideFlags: 0

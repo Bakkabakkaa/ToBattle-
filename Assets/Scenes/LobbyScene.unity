@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 0.3
     agentHeight: 2
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 0.5
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.1
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -9837,8 +9837,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 270.74762, y: -419.53754}
-  m_SizeDelta: {x: 541.49524, y: 119.07506}
+  m_AnchoredPosition: {x: 323.32007, y: -419.53754}
+  m_SizeDelta: {x: 646.64014, y: 119.07506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &832349617
 MonoBehaviour:
@@ -12581,8 +12581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 270.74762, y: -75}
-  m_SizeDelta: {x: 541.49524, y: 150}
+  m_AnchoredPosition: {x: 323.32007, y: -75}
+  m_SizeDelta: {x: 646.64014, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146583880
 MonoBehaviour:
@@ -12662,8 +12662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1280, y: -1080}
-  m_SizeDelta: {x: 2560, y: 720}
+  m_AnchoredPosition: {x: 1528.786, y: -1080}
+  m_SizeDelta: {x: 3057.572, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1156071850
 MonoBehaviour:
@@ -13890,8 +13890,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 270.74762, y: -255}
-  m_SizeDelta: {x: 541.49524, y: 150}
+  m_AnchoredPosition: {x: 323.32007, y: -255}
+  m_SizeDelta: {x: 646.64014, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347001537
 MonoBehaviour:
@@ -14579,7 +14579,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.5
+  m_fontSize: 60.65
   m_fontSizeBase: 40.9
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -31992,8 +31992,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 270.74762, y: -568.6126}
-  m_SizeDelta: {x: 541.49524, y: 119.07506}
+  m_AnchoredPosition: {x: 323.32007, y: -568.6126}
+  m_SizeDelta: {x: 646.64014, y: 119.07506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1867351021
 MonoBehaviour:

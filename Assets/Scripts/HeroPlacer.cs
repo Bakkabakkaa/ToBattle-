@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Hero;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class HeroPlacer : MonoBehaviour
 {
@@ -10,12 +11,14 @@ public class HeroPlacer : MonoBehaviour
     private void Start()
     {
         _hero = FindObjectOfType<HeroController>();
+        
         if (_hero != null)
         {
-            Debug.Log("Я работаю");
+            var agent = _hero.GetComponent<NavMeshAgent>();
             _hero.transform.position = transform.position;
             _hero.transform.rotation = transform.rotation;
             _hero.gameObject.SetActive(true);
+            agent.enabled = true;
         }
     }
 }

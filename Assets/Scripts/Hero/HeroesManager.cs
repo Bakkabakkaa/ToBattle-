@@ -45,8 +45,6 @@ namespace Hero
             var selectedHeroName = hero.HeroSettings.Name;
             _heroControllers.FirstOrDefault(heroController => 
                 heroController.HeroSettings.Name == selectedHeroName)?.gameObject.SetActive(true);
-            
-            _prefsManager.SaveChosenHero(selectedHeroName);
         }
 
         private void InstantiateHero(HeroController heroPrefab)
